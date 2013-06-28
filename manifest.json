@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Aol Reader No-ads",
+	"description": "Hide the ads and expand the content area in Aol reader.",
+	"version": "1.2",
+	"content_scripts": [
+		{
+			"matches": ["http://reader.aol.com/*"],
+			"js": ["myscript.js"]
+		}
+	],
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+	}
+}
+
