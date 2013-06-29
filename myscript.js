@@ -26,7 +26,8 @@ function decorate() {
 				contentWidth = window.innerWidth - navWidth;
 				cssNode = document.createElement('style');
 				cssNode.innerHTML = '#reader-container{width:' + contentWidth.toString() + 'px;}' +
-					'#feed-details{width:' + contentWidth.toString() + 'px;}';
+					'#feed-details{width:' + contentWidth.toString() + 'px;}' +
+					'.article-item-full .article-content{width:95%;}';
 				document.body.appendChild(cssNode);
 				observer.disconnect();
 			}
