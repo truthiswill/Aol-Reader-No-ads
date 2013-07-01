@@ -1,3 +1,10 @@
+// ==UserScript==
+// @name		Aol Reader No-ads
+// @include		http://reader.aol.com/*
+// @author		carlcarl
+// @description Hide the ads and expand the content area in Aol. Reader
+// ==/UserScript==
+
 /*jslint browser:true */
 
 function decorate() {
