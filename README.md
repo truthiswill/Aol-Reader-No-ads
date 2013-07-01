@@ -7,11 +7,9 @@
 
 ## Description
 
-Though Adblock can hide the ads, too. But there is still an empty space at the right side, which is a waste.
+Though Adblock can hide the ads, too. But there is still an empty space at the right side, which is a waste. `Aol Reader No-ads` can remove the ads at right side and also extend the article area to make it looks bigger!!
 
-`Aol Reader No-ads` can remove the ads at right side and also extend the article area to make it looks bigger!!
-
-If you are using Aol reader, you may want to install this :)
+If you are using Aol Reader, you may want to install this :)
 
 ## Usage
 
