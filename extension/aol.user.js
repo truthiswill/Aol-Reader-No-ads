@@ -40,7 +40,7 @@ function decorate() {
 			}
 		});
 	});
-	observer.observe(body, {attributes: true});
+	observer.observe(body, {attributes: true, attributeFilter: ['class']});
 }
 
 window.onload = decorate;
