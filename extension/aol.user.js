@@ -43,4 +43,5 @@ function decorate() {
 	observer.observe(body, {attributes: true, attributeFilter: ['class']});
 }
 
-window.onload = decorate;
+decorate();
+
