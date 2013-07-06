@@ -32,9 +32,9 @@ function decorate() {
 
 				contentWidth = window.innerWidth - navWidth;
 				cssNode = document.createElement('style');
-				cssNode.innerHTML = '#reader-container{width:' + contentWidth.toString() + 'px;}' +
+				cssNode.innerHTML = '#reader-container{width:' + (contentWidth - 10).toString() + 'px;}' +
 					'#feed-details{width:' + contentWidth.toString() + 'px;}' +
-					'.article-item-full .article-content{width:95%;}';
+					'.article-item-full .article-content{width:96%;}';
 				document.body.appendChild(cssNode);
 				observer.disconnect();
 			}
