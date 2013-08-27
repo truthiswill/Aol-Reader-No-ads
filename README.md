@@ -15,7 +15,7 @@ If you are using Aol Reader, you may want to install this :)
 
 Just install this and it will automatically work for you.
 
-## LICENSE
+## License
 
 Copyright (C) 2013 黃健瑋(Chien-Wei Huang)
 
